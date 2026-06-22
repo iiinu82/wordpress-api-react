@@ -21,7 +21,6 @@ function PostDetail({ posts }) {
   }
 
   const categories = post._embedded?.["wp:term"]?.[0] || [];
-  const image = post._embedded?.["wp:featuredmedia"]?.[0];
 
   const sidePosts = posts.filter((item) => {
     const title = item.title.rendered.toLowerCase();
