@@ -3,7 +3,9 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <div className="header-title">React + WordPress REST API</div>
+      <a href="/">
+        <div className="header-title">React + WordPress REST API</div>
+      </a>
     </div>
   );
 }

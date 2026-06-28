@@ -39,8 +39,8 @@
 }
 
 .post-thumb {
-  width: 120px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 
   object-fit: cover;
   flex-shrink: 0;
@@ -97,4 +97,17 @@
   padding: 30px 0;
   text-align: center;
   color: #777;
+}
+
+@media (max-width: 850px) {
+  .wp-area {
+    max-width: 650px;
+    width: 95%;
+    padding: 30px 10px;
+  }
+
+  .post-list {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
